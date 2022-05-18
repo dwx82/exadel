@@ -1,5 +1,6 @@
 In the first step I`ll check the internet connection,packet loss and verify typed credintials such as: IP or hostname, port (if custom), login and password (passprhase in case of using key). If I used the hostname to connect to the server I`ll try to connect using IP, if it will successful then I`ll check DNS (service status,flush DNS, reboot the router...). 
-On the server side I`ll wiil check ssh service status, logs,config (maybe someone "helped" me) and IP (providers like to change it without notification)
-I`ll also check firewall polices on the PC,router and server (I`ll find and punish this guy who pawed my polices).
+On the server side I`ll check ssh service status, logs,config (maybe someone "helped" me) and IP (providers like to change it without notification)
+I`ll also check firewall polices on the PC,router and server.
 When i run out of ideas I`ll google. I am sure that 99% of an issues were resolved by someone and he wrote an article about it)
 The sequence of steps depends on the recieved error and the network configuration on the server side.
+Too little incoming data. Is it a phisical server, vm or conteiner ? Is it placed in datacentre, serverroom or at home ? There are too many factors and too many ways to resolve an issue to describe them all.
