@@ -5,7 +5,7 @@ on:
     branches: ['pslist']
 
 env:
-  REGISTRY: test
+  REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
